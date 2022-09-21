@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OPSC_porject</string>
+    <string name="title_activity_map">Map_activity</string>
 </resources>
