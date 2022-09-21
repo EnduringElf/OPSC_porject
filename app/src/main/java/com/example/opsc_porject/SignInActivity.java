@@ -18,6 +18,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class SignInActivity extends AppCompatActivity  implements View.OnClickListener{
 
@@ -27,6 +28,8 @@ public class SignInActivity extends AppCompatActivity  implements View.OnClickLi
     private Button Login;
     private FirebaseAuth mAuth;
     private ProgressBar progressBar;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

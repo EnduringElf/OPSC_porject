@@ -15,4 +15,27 @@ public class User {
         this.email = Email;
 
     }
+
+    public boolean metric = false;
+
+    public boolean ToggleMetric(){
+        if (metric == false){
+            return   true;
+
+        }else {
+            return  false;
+
+        }
+
+    }
+
+
+
+
+
+
 }
+
+
+
+
