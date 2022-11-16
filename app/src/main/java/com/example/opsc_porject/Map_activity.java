@@ -118,7 +118,6 @@ public class Map_activity extends AppCompatActivity implements OnMapReadyCallbac
         mSearchText = (EditText) findViewById(R.id.inputSearch);
         ToggleMetric = (Switch) findViewById(R.id.MetricSwitch);
         setContentView(R.layout.activity_map);
-
         getLocationPermission();
         LoadUserSwitchData();
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
