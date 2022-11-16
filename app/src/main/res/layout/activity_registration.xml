@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistrationActivity">
+    tools:context=".RegistrationActivity"
+    android:background="#008080">
 
     <TextView
         android:id="@+id/Banner"
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="181dp"
         android:layout_marginEnd="196dp"
+        android:fontFamily="@font/audiowide"
         android:text="Guidance"
         android:textSize="30dp"
         android:textStyle="bold"
@@ -90,6 +92,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/audiowide"
         android:text="Register user"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
